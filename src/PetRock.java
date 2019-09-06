@@ -5,6 +5,9 @@
 * Click to mark tests folder & then flag it "Tests" & hit OK
 * */
 
+// to toggle between files:
+// ctrl+alt
+
 // click to mark Class name
 // then create tests with:
 // alt + enter
@@ -19,6 +22,7 @@
 * */
 public class PetRock {
     private String name;
+    private boolean happy = false;
 
     // for auto generating constructor/get/set:
     // alt + insert
@@ -29,5 +33,14 @@ public class PetRock {
 
     public String getName() {
         return name;
+    }
+
+    public boolean isHappy() {
+        // click, alt + enter to create field
+        return happy;
+    }
+
+    public void playWithRock() {
+        happy = true;
     }
 }
